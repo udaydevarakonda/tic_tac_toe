@@ -1,0 +1,26 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+
+
+.box{
+    width:5rem;
+    height:5rem;
+    border:none;
+    margin:0.5rem;
+    box-shadow:4px 8px 10px #dac95a;
+    border-radius:50%;
+    background-color: white;
+    font-size:3.5rem;
+    font-family: 'Nunito','sans-serif';
+    font-weight: bolder;
+    background-color: rgba(226, 231, 231, 0.612);
+}
+.box:hover{
+    box-shadow:0 0 15px #888;
+}
+.x{
+    color:rgb(255,0, 0);
+}
+.o{
+    color:blue;
+}

@@ -1,0 +1,34 @@
+.rap{
+display: flex;
+  width:20vw;
+  height: auto;
+  justify-content:space-around;
+  background-color: white;
+  margin: 1.2rem auto;
+  box-shadow: 4px 8px 10px #e4de6b;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+
+.board{
+    width: 50%;
+  text-align: center;
+  padding: 1rem 0rem;
+}
+
+
+.x{
+    color:red;
+    align-self: center;
+    border-bottom :5px solid red;
+    border-radius:5px 0 0 5px;
+}
+.o{
+    color:blue;
+    border-radius:0 5px 5px 0;
+    border-bottom:5px solid blue;
+}
+.inactive{
+    border-bottom:5px solid transparent;
+}
